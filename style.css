@@ -1,4 +1,5 @@
 body{
+  font-family: "Poppins", sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -19,9 +20,38 @@ body{
 }
 
 /* start header section */
+.btn{
+  background-color: #FF5959;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+
+  }
+  .btn:hover{
+    background-color: #c22a5d;
+  }
+.heder-tx p{
+  width: 5px;
+  height: 115px;
+  background-color:#c22a5d ;
+  margin-right: 10px;
+  }
+  .heder-tx {
+    display: flex;
+    align-items: center;
+  }
+
+  .span-txt{
+    color: #FFAD5A;
+  }
+  .font_Yeseva{
+    font-family: "Yeseva One";
+    font-size: 60px;
+  }
 .header{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 .header_laft{
@@ -34,3 +64,135 @@ body{
     width: 70%;
   }
   /* header section end hear */
+
+  /* mission-start */
+  .mission-head{
+    text-align: center;
+  }
+  .main{
+margin-top: 40px;
+margin-bottom: 40px;
+  }
+   .mission-wrapper{
+        display: flex;
+      }
+
+  .mission-card1{
+    background-color: cadetblue;
+   
+    padding: 10px; 
+      }
+      .mission-card1 img{
+        width: 100px;
+        height: auto;
+      }
+
+     
+      .mission-card2{
+    background-color: rgb(129, 95, 160);
+   margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px; 
+      }
+      .mission-card2 img{
+        width: 100px;
+        height: auto;
+      }
+      .mission-card3{
+    background-color: rgb(140, 160, 95);
+  
+  padding: 10px;  
+      }
+      .mission-card3 img{
+        width: 100px;
+        height: auto;
+      }
+
+      /* Mission end */
+
+      /* start develop */
+
+      .develop{
+        display: flex;
+        align-items: center;
+        margin-top: 80px;
+        }
+        .develop-laft{
+          width: 40%;
+        }
+      .develop-laft img{
+      width: 100%;
+      height: auto;
+
+    }
+        .develop-right{
+          width: 60%;
+          margin-left: 30px;
+        }
+
+         /* End develop */
+
+         /* start global */
+
+         .global-laft{
+          width: 60%;
+          margin-right: 30px;
+        }
+
+      .global{
+        display: flex;
+        align-items: center;
+        margin-top: 80px;
+        }
+        .global-right{
+          width: 40%;
+        }
+      .global-right img{
+      width: 100%;
+      height: auto;
+
+    }
+
+
+        
+
+         /* End global */
+
+         /* Build Corona Start */
+
+      .corona{
+        display: flex;
+        align-items: center;
+        margin-top: 80px;
+        }
+        .corona-laft{
+          width: 40%;
+        }
+      .corona-laft img{
+      width: 100%;
+      height: auto;
+
+    }
+        .corona-right{
+          width: 60%;
+          margin-left: 30px;
+        }
+
+        /*Build Corona End */
+/* footer start */
+.footer{
+  background-color: rgb(40, 41, 44);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.txt-footer{
+  color: orangered;
+}
+.footer h1{
+  color: white;
+}
+.footer p{
+  color: rgb(192, 194, 238);
+  font-family: "Poppins", sans-serif;
+}
