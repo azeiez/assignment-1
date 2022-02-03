@@ -5,7 +5,7 @@ body{
   box-sizing: border-box;
 }
 .max-width{
-  max-width: 1300px;
+  max-width: 1280px;
   margin: auto;
 }
 
@@ -23,7 +23,7 @@ body{
 .btn{
   background-color: #FF5959;
   color: white;
-  padding: 10px 20px;
+  padding: 15px 40px;
   border-radius: 5px;
   border: none;
 
@@ -34,8 +34,11 @@ body{
 .heder-tx p{
   width: 5px;
   height: 115px;
-  background-color:#c22a5d ;
+  background-color:#FF5959 ;
   margin-right: 10px;
+  }
+  .p-header{
+    margin-top: 40px;
   }
   .heder-tx {
     display: flex;
@@ -68,6 +71,8 @@ body{
   /* mission-start */
   .mission-head{
     text-align: center;
+    font-size: 50px;
+    color: #13103A;
   }
   .main{
 margin-top: 40px;
@@ -78,37 +83,40 @@ margin-bottom: 40px;
       }
 
   .mission-card1{
-    background-color: cadetblue;
-   
-    padding: 10px; 
+    background-color: #4F9DA61A;
+    padding: 40px 20px; 
+    width: 33.33%;
+    border-radius: 20px;
       }
-      .mission-card1 img{
+      .mission-card1>img,
+      .mission-card2>img,
+      .mission-card3>img{
         width: 100px;
         height: auto;
       }
 
      
       .mission-card2{
-    background-color: rgb(129, 95, 160);
-   margin-left: 20px;
-  margin-right: 20px;
-  padding: 10px; 
+         width: 33.33%;
+    background-color: #FF59591A;
+   margin-left: 30px;
+  margin-right: 30px;
+  padding: 40px 20px; 
+  border-radius: 20px;
       }
-      .mission-card2 img{
-        width: 100px;
-        height: auto;
-      }
+     .dots-groups{
+       display: block;
+         margin-left: auto;
+            }
       .mission-card3{
-    background-color: rgb(140, 160, 95);
-  
-  padding: 10px;  
-      }
-      .mission-card3 img{
-        width: 100px;
-        height: auto;
-      }
+         width: 33.33%;
+    background-color: #FFF4D6;
+padding: 40px 20px;
+border-radius: 20px;
+ }
 
-      /* Mission end */
+
+            /* Mission end */
 
       /* start develop */
 
@@ -116,6 +124,10 @@ margin-bottom: 40px;
         display: flex;
         align-items: center;
         margin-top: 80px;
+        }
+
+        .dev-h1{
+          font-size: 40px;
         }
         .develop-laft{
           width: 40%;
@@ -127,7 +139,7 @@ margin-bottom: 40px;
     }
         .develop-right{
           width: 60%;
-          margin-left: 30px;
+          margin-left: 50px;
         }
 
          /* End develop */
@@ -143,6 +155,9 @@ margin-bottom: 40px;
         display: flex;
         align-items: center;
         margin-top: 80px;
+        }
+        .global-h1{
+         font-size: 40px;
         }
         .global-right{
           width: 40%;
@@ -166,16 +181,22 @@ margin-bottom: 40px;
         margin-top: 80px;
         }
         .corona-laft{
-          width: 40%;
+          width: 50%;
         }
       .corona-laft img{
-      width: 100%;
+      width: 70%;
       height: auto;
 
     }
         .corona-right{
-          width: 60%;
+          width: 50%;
           margin-left: 30px;
+        }
+        .corona-head{ font-size: 50px;
+          text-align: center;
+        }
+        .corona-h1{
+          font-size: 40px;
         }
 
         /*Build Corona End */
@@ -187,10 +208,12 @@ margin-bottom: 40px;
   padding-bottom: 20px;
 }
 .txt-footer{
+
   color: orangered;
 }
 .footer h1{
   color: white;
+  font-family: "Lobster", cursive;
 }
 .footer p{
   color: rgb(192, 194, 238);
