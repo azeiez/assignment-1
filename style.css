@@ -1,0 +1,36 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.max-width{
+  max-width: 1300px;
+  margin: auto;
+}
+
+.font_Lobster {
+  font-family: "Lobster", cursive;
+}
+.font_Neonderthaw {
+  font-family: "Neonderthaw", cursive;
+}
+.font_Poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+/* start header section */
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_laft{
+  width: 50%;
+}
+.header_right{
+  width: 50%;
+  }
+  .header_right img{
+    width: 70%;
+  }
+  /* header section end hear */
